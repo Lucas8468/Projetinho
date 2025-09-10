@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Birthstone&family=Bitcount+Grid+Double:wght@100..900&family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+CA:wght@100..400&family=Qwitcher+Grypen:wght@400;700&family=Satisfy&display=swap');
+@keyframes anim1{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+} 
+.container1{
+    background-color: #006269;
+    padding: 200px;
+    margin-top: 100px;
+    border-radius: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-bottom: black solid 10px;
+    border: solid black 3px;
+    height: 100px;
+    color: white;
+}
+.Titulo1{
+    font-family: "Birthstone", cursive;
+    font-size: 65px;
+    font-weight: bold;
+    position:absolute;
+    margin-top: -150px;
+    margin-left: 97px;
+}
+.formu1{
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+.infos{
+    position:absolute;
+    margin-top: 120px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: -120px;
+
+}
+.infos:hover{
+      animation: anim1 0.5s linear infinite;
+}
+.fun1{
+    position: absolute;
+    margin-top: 120px;
+    font-size: 20px;
+     border-radius: 20px;
+    background-color: aquamarine;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 170px;
+}
+.fun1:hover{
+      animation: anim1 0.5s linear infinite;
+}
